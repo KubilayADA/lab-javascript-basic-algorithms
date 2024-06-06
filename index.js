@@ -51,7 +51,7 @@ else if (hacker2 > hacker1) {
 
     let wordsCount = longText.split(/\s+/).length;
 
-    let etCount = (longText.match(/\b(Lo)\b/g)||[]).length;
+    let etCount = (longText.match(/\b(et)\b/g)||[]).length;
 
     console.log(`Number of words in the text: ${wordsCount}`);
     console.log(`Number of times the Latin word "et" appears: ${etCount}`);
